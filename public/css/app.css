@@ -803,7 +803,7 @@ header.headerSticky {
     height: 350px;
   }
   #invest-status .tooltip-wrap .tooltip-content {
-    left: 130%;
+    left: 130% !important;
     top: 0;
   }
   #invest-status .invest-status-tit-slider .swiper-pagination {
