@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>투자 - 게시판 리스트</title>
+
+    <!-- js lib -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Swiper  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- custom -->
+    <link rel="stylesheet" href="/public/css/app.css">
+    <script defer src="/public/js/main.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="inr">
+            <div class="logo-wrap">
+                <a href="/index.html">
+                    <figure class="logo"><img src="/public/img/logo-sample.png" alt="logo"></figure>
+                    <span class="logo-text">
+                        <span class="color-primary">Name</span> Investment
+                    </span>
+                </a>
+            </div>
+            <ul class="gnb-lists">
+                <li class="gnb-list"><a href="/noticeList.html">게시판 리스트</a></li>
+                <li class="gnb-list"><a href="/noticeDetail.html">게시판 상세</a></li>
+            </ul>
+        </div>
+    </header>
+    <main id="sub">
+        <section id="story">
+            <div class="inr">
+                <div class="story-tit-wrap">
+                    <h2>name investment 스토리</h2>
+                    <ul class="board-filter-lists">
+                        <li class="board-filter-list">투자후기</li>
+                        <li class="board-filter-list on">투자TIP</li>
+                        <li class="board-filter-list">언론보도</li>
+                        <li class="board-filter-list">공지사항</li>
+                    </ul>
+                </div>
+                <div class="board-content">
+                    <ul class="row board-lists">
+                        <li class="col-lg-4 col-md-6 col-12">
+                            <div class="board-list">
+                                <a href="">
+                                    <span class="filter-tag">투자TIP</span>
+                                    <figure><img src="/public/img/board-sample-img.jpg" alt="board sample img"></figure>
+                                    <dl>
+                                        <dt>
+                                            <span class="board-date">2022.07.12</span>
+                                            [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소'
+                                        </dt>
+                                        <dd>[이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부 [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-6 col-12">
+                            <div class="board-list">
+                                <a href="">
+                                    <span class="filter-tag">투자TIP</span>
+                                    <figure><img src="/public/img/board-sample-img.jpg" alt="board sample img"></figure>
+                                    <dl>
+                                        <dt>
+                                            <span class="board-date">2022.07.12</span>
+                                            [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소'
+                                        </dt>
+                                        <dd>[이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부 [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-6 col-12">
+                            <div class="board-list">
+                                <a href="">
+                                    <span class="filter-tag">투자TIP</span>
+                                    <figure><img src="/public/img/board-sample-img.jpg" alt="board sample img"></figure>
+                                    <dl>
+                                        <dt>
+                                            <span class="board-date">2022.07.12</span>
+                                            [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소'
+                                        </dt>
+                                        <dd>[이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부 [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-6 col-12">
+                            <div class="board-list">
+                                <a href="">
+                                    <span class="filter-tag">투자TIP</span>
+                                    <figure><img src="/public/img/board-sample-img.jpg" alt="board sample img"></figure>
+                                    <dl>
+                                        <dt>
+                                            <span class="board-date">2022.07.12</span>
+                                            [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소'
+                                        </dt>
+                                        <dd>[이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부 [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-6 col-12">
+                            <div class="board-list">
+                                <a href="">
+                                    <span class="filter-tag">투자TIP</span>
+                                    <figure><img src="/public/img/board-sample-img.jpg" alt="board sample img"></figure>
+                                    <dl>
+                                        <dt>
+                                            <span class="board-date">2022.07.12</span>
+                                            [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소'
+                                        </dt>
+                                        <dd>[이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부 [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-6 col-12">
+                            <div class="board-list">
+                                <a href="">
+                                    <span class="filter-tag">투자TIP</span>
+                                    <figure><img src="/public/img/board-sample-img.jpg" alt="board sample img"></figure>
+                                    <dl>
+                                        <dt>
+                                            <span class="board-date">2022.07.12</span>
+                                            [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소'
+                                        </dt>
+                                        <dd>[이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부 [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-6 col-12">
+                            <div class="board-list">
+                                <a href="">
+                                    <span class="filter-tag">투자TIP</span>
+                                    <figure><img src="/public/img/board-sample-img.jpg" alt="board sample img"></figure>
+                                    <dl>
+                                        <dt>
+                                            <span class="board-date">2022.07.12</span>
+                                            [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소'
+                                        </dt>
+                                        <dd>[이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부 [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-6 col-12">
+                            <div class="board-list">
+                                <a href="">
+                                    <span class="filter-tag">투자TIP</span>
+                                    <figure><img src="/public/img/board-sample-img.jpg" alt="board sample img"></figure>
+                                    <dl>
+                                        <dt>
+                                            <span class="board-date">2022.07.12</span>
+                                            [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소'
+                                        </dt>
+                                        <dd>[이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부 [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-6 col-12">
+                            <div class="board-list">
+                                <a href="">
+                                    <span class="filter-tag">투자TIP</span>
+                                    <figure><img src="/public/img/board-sample-img.jpg" alt="board sample img"></figure>
+                                    <dl>
+                                        <dt>
+                                            <span class="board-date">2022.07.12</span>
+                                            [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소'
+                                        </dt>
+                                        <dd>[이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부 [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-6 col-12">
+                            <div class="board-list">
+                                <a href="">
+                                    <span class="filter-tag">투자TIP</span>
+                                    <figure><img src="/public/img/board-sample-img.jpg" alt="board sample img"></figure>
+                                    <dl>
+                                        <dt>
+                                            <span class="board-date">2022.07.12</span>
+                                            [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소'
+                                        </dt>
+                                        <dd>[이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부 [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-6 col-12">
+                            <div class="board-list">
+                                <a href="">
+                                    <span class="filter-tag">투자TIP</span>
+                                    <figure><img src="/public/img/board-sample-img.jpg" alt="board sample img"></figure>
+                                    <dl>
+                                        <dt>
+                                            <span class="board-date">2022.07.12</span>
+                                            [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소'
+                                        </dt>
+                                        <dd>[이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부 [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-6 col-12">
+                            <div class="board-list">
+                                <a href="">
+                                    <span class="filter-tag">투자TIP</span>
+                                    <figure><img src="/public/img/board-sample-img.jpg" alt="board sample img"></figure>
+                                    <dl>
+                                        <dt>
+                                            <span class="board-date">2022.07.12</span>
+                                            [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소'
+                                        </dt>
+                                        <dd>[이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부 [이벤트] 2021년 설맞이 이벤트 ‘올해는 부자되소' ‘올해는 부</dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pagination-wrap">
+                    <span class="pagination-navigation prev">이전</span>
+                    <ul class="pagination-lists">
+                        <li class="pagination-list on">1</li>
+                        <li class="pagination-list">2</li>
+                        <li class="pagination-list">3</li>
+                        <li class="pagination-list">4</li>
+                        <li class="pagination-list">5</li>
+                    </ul>
+                    <span class="pagination-navigation next">다음</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+   
+</body>
+
+</html>
